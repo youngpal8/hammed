@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admission</title>
+    <style>
+        .navbar{
+            padding: 15px;
+        }
+        .navbar li{
+            list-style-type: none;
+        }
+        .navbar li a{
+            text-decoration: none;
+            font-size: 20px;
+            font-weight: 500;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        body{
+            background-color: aqua;
+        }
+        .navbar{
+            background-color: cornflowerblue;
+            margin: 0;
+            padding: 15px;
+        }
+        .navbar li{
+            display: inline;
+            list-style-type: none;
+            padding: 15px;
+
+        }
+        body{
+            margin: 0;
+        }
+        .navbar li a{
+            text-decoration: none;
+            font-size: 20px;
+            color: black;
+            font-weight: 600;
+            font-family: 'Times New Roman', Times, serif;
+            font-style: italic;
+        }
+        .hero{
+            background-image: url(IMAGES/20211206_110041.jpg);
+            position: relative;
+            background-size: cover;
+            background-repeat: no-repeat;
+            width: 100%;
+            height: 100vh;
+            overflow: hidden;
+            background-position: center;
+            top: 0;
+            left: 0;
+            
+        }
+        .hero .overlay{
+            background-color: rgba(0, 0, 0, 0.3);
+            width: 100%;
+            height: 100%;
+            position: absolute;
+        }
+        .hero .content{
+            position: absolute;
+            color: white;
+            top: 60%;
+            left: 50%;
+            transition: translate(-50%,-50%);
+            text-align: center;
+        }
+        .hero .undergraduate{
+            text-decoration: none;
+            padding: 10px 25px;
+            color: white;
+        }
+        .hero .graduate{
+            text-decoration: none;
+            padding: 10px 25px;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <ul class="navbar">
+        <li><a href="home.html">Home</a></li>
+        <li><a href="admission.html">Admission</a></li>
+        <li><a href="faculty.html">Faculity</a></li>
+        <li><a href="student.html">Student</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+        <li><a href="about.html">About Us</a></li>
+    </ul>
+    <!-- hero image -->
+    <section class="hero">
+        <div class="overlay">
+            <div class="content">
+                <h2>Start your Education Pathway</h2>
+                <a href="undergraduate.html" class="undergraduate">Undergraduate</a><br>
+                <a href="graduate.html" class="graduate">Graduate</a>
+
+            </div>
+            
+        </div>
+        
+    </section>
+    
+
+    
+  
+</body>
+</html>

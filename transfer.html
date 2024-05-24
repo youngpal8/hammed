@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transfer</title>
+    <style>
+        .container{
+            display: flex;
+            justify-content: space-around;
+        }
+        .container .box{
+            max-width: 600px;
+        }
+    </style>
+</head>
+<body>
+
+    <h3 id="done"></h3>
+    <form action="">
+        <input type="text" id="fulln" value="" placeholder="Full Name"><br>
+        <p id="fullerror"></p>
+        <input type="text" id="phonen" value="" placeholder="Phone number"><br>
+        <p id="phoneerror"></p>
+        <button id="btn" type="button" onclick="proceed()">Proceed</button>
+    </form>
+
+    <!-- classwork -->
+    <p id="demoo">Good Morning</p>
+    <button id="changetextbtn" onclick="change()">change</button>
+
+    <div id="colordiv">
+        <h2>business</h2>
+        <h2>agriculture</h2>
+        <h2>religion</h2>
+    </div>
+    <button id="xchange" onclick="color()">change color button</button>
+    
+   
+   <p id="approved"></p>
+    <form action="">
+        <input type="tel" name="" id="phone" placeholder="Phone number"><br>
+        <span id="errorSpan"></span><br>
+        <button type="button" id="but" onclick="next()">Next</button>
+    </form>
+
+    <div>
+        <img src="" alt="" id="mainImage" height="450" width="400px"><br>
+
+        <img src="IMAGES/20211206_105738.jpg" width="250" height="300" onclick="displayImage(this.src)" alt="">
+        <img src="IMAGES/20211206_110101.jpg" width="250" height="300" onclick="displayImage(this.src)" alt="">
+        <img src="IMAGES/20211206_110555.jpg" width="250" height="300" onclick="displayImage(this.src)" alt="">
+        <img src="IMAGES/20211206_105658.jpg" width="250" height="300" onclick="displayImage(this.src)" alt="">
+    </div>
+
+    <div id="togglediv" style="margin-top: 50px; font-size: 24px; margin-bottom: 15px;">Welcome to my page</div>
+    <button id="togglebtn" onclick="toggleDiv()">Toggle Div</button>
+    <button onclick="showDiv()">ShowDiv</button>
+
+    <section class="container">
+        <div class="box">
+            <p>Thank you for taking the time to process your Passport Application. Your Passport Application with the Application ID and Reference Number below has been Approved and you may proceed to Book Appointment. <a href="#" type="button" id="showMore" onclick="show()">Show more...</a>
+                
+                <span id="less">Please note this is an auto generated e-mail. Please do NOT reply to this email. </span>
+            </p>
+            
+        </div>
+        <div class="box">
+            <p>Thank you for taking the time to process your Passport Application. Your Passport Application with the Application ID and Reference Number below has been Approved and you may proceed to Book Appointment.</p>
+        </div>
+        <div class="box">
+            <p>Thank you for taking the time to process your Passport Application. Your Passport Application with the Application ID and Reference Number below has been Approved and you may proceed to Book Appointment.</p>
+        </div>
+    </section>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

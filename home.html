@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME PAGE</title>
+    <style>
+        table, th, td{
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        th,td{
+            padding: 15px;
+        }
+        .form-group, input{
+            margin: 12px 12px 12px 12px;
+            padding: 10px 15px 10px 15px;
+            border-radius: 25px;
+        }
+        .group, label{
+            margin: 12px 12px 12px 12px;
+            padding: 10px 15px 10px 15px;
+        }
+        button{
+            margin: 12px 12px 12px 12px;
+            padding: 10px 15px 10px 15px;
+            background-color: skyblue;
+            color: black;
+            border-radius: 15px;
+        }
+        .navbar{
+            background-color: cornflowerblue;
+            margin: 0;
+            padding: 15px;
+        }
+        .navbar li{
+            display: inline;
+            list-style-type: none;
+            padding: 15px;
+
+        }
+        body{
+            margin: 0;
+        }
+        .navbar li a{
+            text-decoration: none;
+            font-size: 20px;
+            color: black;
+            font-weight: 600;
+            font-family: 'Times New Roman', Times, serif;
+            font-style: italic;
+        }
+        .hero{
+            background-image: url(IMAGES/20211206_110547.jpg);
+            background-repeat: no-repeat;
+            width: 100%;
+            height: 100vh;
+            position: relative;
+            top: 0;
+            left: 0;
+            background-position: center;
+            background-size: cover;
+            overflow: hidden;
+        }
+        .hero .overlay{
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            background-color: rgba(0, 0, 0, 0.3);
+        }
+        .hero .content{
+            position: absolute;
+            color: black;
+            top: 50%;
+            left: 50%;
+            transition: translate(-50%,-50%);
+            text-align: center;
+            color: white;
+        }
+        .hero .btn{
+            background-color: aqua;
+            color:white;
+            text-decoration: none;
+            padding: 10px 25px;
+            border-radius: 10px;
+
+        }
+    </style>
+</head>
+<body>
+    <ul class="navbar">
+        <li><a href="home.html">Home</a></li>
+        <li><a href="admission.html">Admission</a></li>
+        <li><a href="faculty.html">Faculity</a></li>
+        <li><a href="student.html">Student</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+        <li><a href="about.html">About Us</a></li>
+    </ul>
+
+    <!-- hero image -->
+    <section class="hero">
+        <div class="overlay"></div>
+        <div class="content">
+            <h1>Touching lives...</h1>
+            <p>click the button below</p>
+            <a href="about.html" class="btn">About Us</a>
+        </div>
+
+    </section>
+    <P>WELCOME TO UNIVERSITY OF OXLADE</P>
+    <H1>ADMISSION</H1>
+    <H2>STUDENT</H2>
+    <H3>FACULITY</H3>
+    <H4>CAMPUS</H4>
+    <H5>CONTACT INFORMATIONS</H5>
+    <H6>ALUMINS</H6>
+
+    <H3>FACULITY</H3>
+    <UL>
+        <LI>ENGINEERING</LI>        <li>SOCIAL SCIENCE</li>
+        <LI>MEDICINE</LI>        <li>ART</li>
+        <LI>LAW</LI> <li>EDUCATION</li>
+        <LI>MANAGEMENT</LI> <LI>VOACTIONAL</LI>
+    </UL>
+    <H3>CAMPUS</H3>
+    <OL>
+        <LI>ABUJA</LI>
+        <LI>ILE-IFE</LI>
+        <LI>ZARIA</LI>
+        <LI>ORLU</LI>
+    </OL>
+<img src="IMAGES/20211206_110547.jpg" width="400" height="400" alt="" srcset=""> 
+<img src="IMAGES/20211206_110555.jpg" width="350" height="350" alt="">
+<TAble>
+    <tr>
+        <th>S/N</th>
+        <th>NAMES</th>
+        <th>PHONE NUMBERS</th>
+        <th>EMAIL ADRRESS</th>
+        <th>PLACE OF BIRTH</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>AKINWALE BENJAMIN</td>
+        <td>07014568789</td>
+        <td>akinben@hotmail.com</td>
+        <td>IBADAN</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>SAMUEL OKORAFOR</td>
+        <td>081652487892</td>
+        <td>samfor@yahoo.com</td>
+        <td>AHODA</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>ABDULLAHI ADAMU</td>
+        <td>09068689797</td>
+        <td>abduldam@yahoo.com</td>
+        <td>JOS</td>
+    </tr>
+</TAble>
+<h3>STUDENT REGISTRATION PORTAL</h3>
+<div class="form-group">
+    <input type="text" placeholder="Last Name">
+    <input type="text" placeholder="First Name"><br>
+    <input type="text" placeholder="Identity Number">
+    <input type="text" placeholder="Mobile Phone Number"><br>
+    <input type="text" placeholder="Place of Birth">
+    <input type="text" placeholder="State of Origin"><br>
+</div>
+<div class="group">
+    <label for="">Document</label><br>
+    <label for="">Issuance Date</label><br>
+    <input type="date" name=""><br>
+    <label for="">Expiry Date</label><br>
+    <input type="date" name=""><br>
+
+</div>
+<button>Next</button>
+<button>Previous</button><br>
+<button>Home Page</button>
+
+
+</body>
+</html>

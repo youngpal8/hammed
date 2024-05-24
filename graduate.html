@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Graduate</title>
+
+    <style>
+        .navbar{
+            background-color: cornflowerblue;
+            margin: 0;
+            padding: 15px;
+        }
+        .navbar li{
+            display: inline;
+            list-style-type: none;
+            padding: 15px;
+
+        }
+        body{
+            margin: 0;
+        }
+        .navbar li a{
+            text-decoration: none;
+            font-size: 20px;
+            color: black;
+            font-weight: 600;
+            font-family: 'Times New Roman', Times, serif;
+            font-style: italic;
+        }
+        .hero{
+            background-image: url(IMAGES/20211206_110101.jpg);
+            position: relative;
+            height: 100vh;
+            width: 100%;
+            overflow: hidden;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            top: 0;
+            left: 0;
+        }
+        .hero .overlay{
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+        .hero .content{
+            position: absolute;
+            transition: translate(-50%,-50%);
+            margin: 15px;
+            text-align: center;
+            top: 25%;
+            left: 25%;
+            color: aliceblue;
+            padding: 15px;
+        }
+        .hero .btn{
+            position: absolute;
+            background-color: cornflowerblue;
+            color: black;
+            border-radius: 10px;
+            margin: 15px;
+            width: 100px;
+            height: 20px;
+            padding: 15px;
+            left: 35%;
+            text-decoration: none;
+        }
+        .container{
+            display: flex;
+            justify-content: space-around;
+        }
+        .container .box{
+            max-width: 600px;
+        }
+    </style>
+</head>
+<body>
+    <ul class="navbar">
+        <li><a href="home.html">Home</a></li>
+        <li><a href="admission.html">Admission</a></li>
+        <li><a href="faculty.html">Faculity</a></li>
+        <li><a href="student.html">Student</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+        <li><a href="about.html">About Us</a></li>
+    </ul>
+    <!-- hero image -->
+    <section class="hero">
+        <div class="overlay">
+            <div class="content">
+                <h2>Learn Today, Lead Tomorrow</h2>
+                <h3>We run a range of postgraduate and short courses, and can be flexible to</h3>
+                <h3>allow you to study single modules at this level, so you can be sure we’ll look </h3>
+                <h3>after your professional development even once you’re in employment.</h3>
+                <class class="btn">Apply Now</class>
+                <a href="faculty.html" class="btn">Apply Now</a>
+
+            </div>
+
+        </div>
+
+        
+
+    </section>
+
+   
+</body>
+</html>
